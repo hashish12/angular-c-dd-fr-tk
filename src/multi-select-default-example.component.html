@@ -1,0 +1,11 @@
+<div class="capsule2">
+    <div class="capsule "><ng-select
+        [items]="people$ | async"
+        [multiple]="true"
+        [closeOnSelect]="false"
+        [searchable]="true"
+        bindLabel="name"
+        [(ngModel)]="selectedPeople">
+    </ng-select></div>
+</div>
+
